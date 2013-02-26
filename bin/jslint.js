@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/*jslint node: true */
 
 var linter = require("../lib/linter");
 var reporter = require("../lib/reporter");
