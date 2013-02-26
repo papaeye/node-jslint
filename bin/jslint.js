@@ -8,11 +8,11 @@ var fs = require("fs");
 function commandOptions() {
     'use strict';
     var flags = [
-            'anon', 'bitwise', 'browser', 'cap', 'continue', 'css',
+            'anon', 'bitwise', 'browser', 'continue', 'css',
             'debug', 'devel', 'eqeq', 'es5', 'evil', 'forin', 'fragment',
             'newcap', 'node', 'nomen', 'on', 'passfail', 'plusplus',
             'properties', 'regexp', 'rhino', 'undef', 'unparam',
-            'sloppy', 'stupid', 'sub', 'vars', 'white', 'widget', 'windows',
+            'sloppy', 'stupid', 'sub', 'todo', 'vars', 'white', 'windows',
             'json', 'color', 'terse'
         ],
         commandOpts = {
